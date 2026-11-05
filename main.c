@@ -5,7 +5,7 @@ int main(void) {
 	int nb1;
 	int nb2;
 	char symbol;
-	int resultat;
+	int result;
 	
 	printf("Hello user, please choose a symbol (+ | - | / | * | %%) : " );
 	scanf(" %c", &symbol);
@@ -13,31 +13,31 @@ int main(void) {
 	printf("Please enter a number : ");
 	scanf("%d", &nb1);
 	printf("Please enter a second number : ");
-	scanf("%d", &nb1);
+	scanf("%d", &nb2);
 
 	if (symbol == '+') {
 		result=nb1+nb2;
-		printf("addition\n");
+		printf("%d %c %d = %d\n",nb1,symbol,nb2,result);
 	}
 
 	else if (symbol == '-') {
 		result=nb1-nb2;
-		printf("soustraction\n");
+		printf("%d %c %d = %d\n",nb1,symbol,nb2,result);
 	}
 
 	else if (symbol == '*') {
 		result=nb1*nb2;
-		printf("multiplication\n");
+		printf("%d %c %d = %d\n",nb1,symbol,nb2,result);
 	}
 
 	else if (symbol == '/') {
 		result=nb1/nb2;
-		printf("division\n");
+		printf("%d %c %d = %d\n",nb1,symbol,nb2,result);
 	}
 
 	else if (symbol == '%') {
 		result=nb1%nb2;
-		printf("modulo\n");		
+		printf("%d %c %d = %d\n",nb1,symbol,nb2,result);		
 	}
 
 	else {
