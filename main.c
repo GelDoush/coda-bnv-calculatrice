@@ -16,22 +16,27 @@ int main(void) {
 	scanf("%d", &nb1);
 
 	if (symbol == '+') {
+		result=nb1+nb2;
 		printf("addition\n");
 	}
 
 	else if (symbol == '-') {
+		result=nb1-nb2;
 		printf("soustraction\n");
 	}
 
 	else if (symbol == '*') {
+		result=nb1*nb2;
 		printf("multiplication\n");
 	}
 
 	else if (symbol == '/') {
+		result=nb1/nb2;
 		printf("division\n");
 	}
 
 	else if (symbol == '%') {
+		result=nb1%nb2;
 		printf("modulo\n");		
 	}
 
